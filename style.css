@@ -152,8 +152,8 @@ img {
     url('images/bg-pattern-top-desktop.svg'),
     url('images/bg-pattern-bottom-desktop.svg');
     background-position:
-    right 20rem bottom 15rem,
-    left 0rem top 10rem;
+    right 30rem bottom 15rem,
+    left 0rem top 2rem;
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -173,7 +173,7 @@ img {
 
     .wrapper {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
     }
 
     /* Intro */
@@ -206,23 +206,26 @@ img {
         margin-right: 2em;
     }
     .first {
-        transform: translateX(4em);
+        transform: translate(1em, 4em);
     }
 
     .second {
         /* margin-left: 8em; */
-        transform: translateX(8em);
+        transform: translate(6em, 4em);
     }
 
     .third {
-        transform: translateX(12em);
+        transform: translate(12em, 4em);
     }
 
     /* Reviews */
+    .reviews {
+        padding-top: 3em;
+    }
 
     .reviews__col {
         border-radius: 10px;
-        padding: 3em 2em;
+        padding: 2em;
         font-size: 0.90rem;
     }
 
