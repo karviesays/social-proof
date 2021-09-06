@@ -158,6 +158,9 @@ img {
     background-size: cover;
     }
 
+    main {
+        padding: 5em 0;
+    }
     .wrapper + .reviews {
         margin-top: 0em;
     }
@@ -193,19 +196,26 @@ img {
     .flex {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+    }   
+
+    .rate__col {
+        padding: 1.2em 3em;
     }
 
+    .stars {
+        margin-right: 2em;
+    }
     .first {
-        margin-left: 4em;
+        transform: translateX(4em);
     }
 
     .second {
-        margin-left: 8em;
+        /* margin-left: 8em; */
+        transform: translateX(8em);
     }
 
     .third {
-        margin-left: 10em;
+        transform: translateX(12em);
     }
 
     /* Reviews */
@@ -230,11 +240,11 @@ img {
     }
 
     .reviews__col:nth-child(2) {
-        margin-top: 3em;
+        transform: translateY(2em);
     }
 
     .reviews__col:nth-child(3)
      {
-        margin-top: 6em;
+        transform: translateY(4em);
      }
 }
