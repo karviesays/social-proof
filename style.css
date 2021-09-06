@@ -114,7 +114,6 @@ img {
 
 /* Reviews */
 .reviews__col {
-    width:100%;
     border-radius: 10px;
     padding: 2.5em 2em;
     font-size: 0.90rem;
@@ -224,14 +223,12 @@ img {
     }
 
     .reviews__col {
-        border-radius: 10px;
-        padding: 2em;
         font-size: 0.90rem;
     }
 
     .reviews {
         display: flex;
-        align-items: center;
+
     }
 
     .reviews__col p {
@@ -243,11 +240,11 @@ img {
     }
 
     .reviews__col:nth-child(2) {
-        transform: translateY(2em);
+        transform: translate(0em, 1em);
     }
 
     .reviews__col:nth-child(3)
      {
-        transform: translateY(4em);
+        transform: translate(0em, 2em);
      }
 }
